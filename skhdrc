@@ -101,3 +101,4 @@ alt + ctrl - r : yabai --restart-service
 alt - return : open -n /Applications/Alacritty.app
 alt + shift - b : open -n "/Applications/Google Chrome.app"
 alt + shift - f12 : open -n /System/Applications/Utilities/Screenshot.app
+alt - e : open -n ~
