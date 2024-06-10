@@ -1,5 +1,5 @@
 # close window
-alt + shift - q : yabai -m window --close
+alt + shift - q : skhd --key "cmd - w"
 
 # yabai layouts
 alt + ctrl - j : yabai -m config layout bsp
@@ -98,7 +98,7 @@ alt + ctrl - s : yabai --start-service
 alt + ctrl - r : yabai --restart-service
 
 # Open applications
-alt - return : open -n /Applications/Alacritty.app
+alt - return : $HOME/.config/skhd/alacritty.sh
 alt + shift - b : open -n "/Applications/Google Chrome.app"
 alt + shift - f12 : open -n /System/Applications/Utilities/Screenshot.app
 alt - e : open -n ~
