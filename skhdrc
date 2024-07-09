@@ -98,7 +98,8 @@ alt + ctrl - s : yabai --start-service
 alt + ctrl - r : yabai --restart-service
 
 # Open applications
-alt - return : $HOME/.config/skhd/alacritty.sh
+# alt - return : $HOME/.config/skhd/alacritty.sh
+alt - return : open -n "/Applications/Alacritty.app"
 alt + shift - b : open -n "/Applications/Google Chrome.app"
 alt + shift - f12 : open -n /System/Applications/Utilities/Screenshot.app
 alt - e : open -n ~
